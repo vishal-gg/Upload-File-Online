@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    color-scheme: dark;
+}
+
+.uploadProgressWithFirebase::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right, transparent, #ffffff, transparent);
+    animation: loadingAnimation 2s infinite ease;
+
+}
+
+@keyframes loadingAnimation {
+    from { transform: translateX(-100%) }
+    to { transform: translateX(100%) }
+}
