@@ -2,7 +2,7 @@ import React from 'react'
 import Upload from './Upload'
 import Gallery from './Gallery'
 import {SiFirebase} from 'react-icons/si'
-import { Toaster } from 'sonner';
+import {Toaster} from 'sonner'
 
 const page = () => {
   return (
