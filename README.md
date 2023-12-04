@@ -4,8 +4,10 @@ This project is about uploading your files on cloud with Firebase and Edge Store
 
 ![screenshot](/public/screenshot.png)
 
+## Live Demo 🚀 
+[🔗click here](https://upload-file-online.vercel.app)
 
-## Features 🚀
+## Features ✨
 <details>
 <summary><strong>1. Drap 'n' Drop:</strong></summary>
 Effortlessly upload files by dragging and dropping them onto the interface. No more hassle with traditional file selection!
